@@ -58,9 +58,11 @@ const Home = () => {
             condimentum.
           </p>
 
-          <a className="btn btn-lg btn-primary" href="/signIn" role="button">
-            Comment
-          </a>
+          <Link href="/signIn">
+            <a className="btn btn-lg btn-primary" role="button">
+              Comment
+            </a>
+          </Link>
         </div>
       </div>
       <br></br>
@@ -91,9 +93,11 @@ const Home = () => {
           pharetra velit eget erat semper condimentum.
         </p>
 
-        <a className="btn btn-lg btn-primary" href="/signIn" role="button">
-          Comment
-        </a>
+        <Link href="/signIn">
+          <a className="btn btn-lg btn-primary" role="button">
+            Comment
+          </a>
+        </Link>
       </div>
     </div>
   );
